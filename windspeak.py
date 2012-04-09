@@ -8,11 +8,11 @@ prerecorded audio clips.
 usage: windspeak [options]
 
 options:
--u <url>		API root URL, defaults to http://vind.minimum.se/api/v3
--l				List all available stations
+-u <url>	API root URL, defaults to http://vind.minimum.se/api/v3
+-l		List all available stations
 -s <station>	Station name, use -l to list available stations
 -o <outfile>	Output wavefile. Defaults to 'windspeak.wav'
--v <voice>		Use <voice> for output. Defaults to 'magnus'
+-v <voice>	Use <voice> for output. Defaults to 'magnus'
 """
 
 import getopt
