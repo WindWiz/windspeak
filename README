@@ -1,3 +1,9 @@
 Windspeak
 =============
 WindWiz speech synthesizer. See windspeak.py --help for usage help.
+
+Requires SimpleJSON package for python. It is available in the python-simplejson
+on Debian:
+
+	apt-get install python-simplejson
+
